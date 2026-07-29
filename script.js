@@ -212,3 +212,11 @@ document.querySelectorAll(".package-btn").forEach(btn => {
 
 // ===== END =====
 console.log("Subhranil Photography Website Loaded Successfully");
+// ===== Mobile Menu =====
+
+const menuToggle = document.querySelector(".menu-toggle");
+const nav = document.querySelector("nav");
+
+menuToggle.addEventListener("click", () => {
+    nav.classList.toggle("active");
+});

@@ -881,3 +881,35 @@ nav a{
     margin:0;
     line-height:1.2;
 }
+/* ===== Mobile Menu ===== */
+
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    color:#FFD700;
+    cursor:pointer;
+}
+
+@media (max-width:768px){
+
+.menu-toggle{
+    display:block;
+}
+
+nav{
+    display:none;
+}
+
+nav.active{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    top:70px;
+    right:10px;
+    background:#111;
+    padding:15px;
+    border-radius:12px;
+    gap:15px;
+}
+
+}
