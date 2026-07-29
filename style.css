@@ -829,3 +829,28 @@ background:#007BFF;
 .call-btn:hover{
 transform:scale(1.12);
 }
+/* Mobile Footer Fix */
+@media (max-width:768px){
+
+.footer{
+    padding:30px 15px;
+}
+
+.footer h2{
+    font-size:24px;
+}
+
+.footer p{
+    font-size:14px;
+    line-height:1.5;
+}
+
+.footer-social{
+    gap:12px;
+}
+
+.footer-social a{
+    font-size:14px;
+}
+
+}
