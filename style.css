@@ -26,20 +26,20 @@ z-index:999;
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:18px 40px;
+padding:18px 20px;
 background:rgba(0,0,0,.55);
 backdrop-filter:blur(12px);
 }
 
 nav{
 display:flex;
-gap:25px;
+gap:15px;
 }
 
 nav a{
 color:#fff;
 text-decoration:none;
-font-size:18px;
+font-size:16px;
 font-weight:bold;
 transition:.3s;
 }
