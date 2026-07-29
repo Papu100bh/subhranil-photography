@@ -733,8 +733,31 @@ grid-template-columns:1fr;
 }
 
 .package{
-width:100%;
-margin:10px 0;
+    width:100%;
+    margin:10px 0;
+}
+.package{
+    width:100%;
+    margin:10px 0;
+    text-align:center;
+}
+
+.package a{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 30px;
+    background:#FFD700;
+    color:#111 !important;
+    text-decoration:none;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:30px;
+    transition:0.3s;
+}
+
+.package a:hover{
+    background:#ffbf00;
+    transform:scale(1.05);
 }
 
 }
